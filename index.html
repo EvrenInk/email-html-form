@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>e-mail HTML Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>e-mail form submission</legend>
+                <div>
+                    <div><label for="name">Name:</label></div>
+                    <input 
+                        id="name"
+                        type="text"
+                        name="name"
+                        placeholder="enter your preferred name"
+                    />
+                </div>
+                <div>
+                    <div><label for="email">Email:</label></div>
+                    <input
+                        id="email"
+                        type="text"
+                        name="email"
+                        placeholder="enter your email"
+                        required
+                    />
+                </div>
+                <div>
+                    <div><label for="message">Your Message:</label></div>
+                    <textarea
+                        id="message"
+                        type="form-message"
+                        name="message"
+                        placeholder="enter the message you'd like to send."
+                        required
+                    ></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+  </body>
+</html>

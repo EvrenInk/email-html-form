@@ -1,0 +1,24 @@
+body {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: darkgrey;
+  }
+  
+  input {
+    margin: 5px;
+    background-color: whitesmoke;
+  }
+
+  textarea {
+    margin: 5px;
+    background-color: whitesmoke;
+    border-style: inset;
+    border-width: 2px;
+  }
+  
+  fieldset {
+    margin-bottom: 10px;
+  }
+  /* i did my absolute best to make it look like how i imagine
+  the 1980s internet looked like
